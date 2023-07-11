@@ -105,7 +105,7 @@ function retornaNumero(numero) {
  * @returns {boolean} Retorna true para números positivos
  */
 function ehPositivo(num) {
-  if (num >= 0){
+  if (num > 0){
     return true;
   }else{
     return false;
